@@ -1,0 +1,1868 @@
+@media(min-width: 992.01px) and (max-width: 1200px){
+    .cat-products h5{
+        font-size: 20px;
+    }
+    .cat-products .pr-listing a{
+        margin: 0 2px;
+        flex: 0 0 200px;
+    }
+    .product-categories{
+        padding-right: 0;
+    }
+    .filter-form .input-box .dropdown{
+        width: 247px;
+    }
+    .product-detail-section .product-img{
+        padding-right: 0;
+    }
+    .product-detail .quantity-btns .global-btn{
+        padding: 5px 0;
+        font-size: 11px;
+    }
+    .funds-wrapper .product-dls-wrap .product-count {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .profile-wrapper .profile-pic img{
+        height: 125px;
+    }
+    .funds-details .funds-info .col-sm-2 img{
+        height: 115px;
+    }
+    .product-filter .funds-details .contact-info .dls.artikel{
+        margin-top: 10px;
+    }
+    .funds-details .contact-info .email{
+        margin-top: 5px;
+    }
+    .footer-cookie .container-fluid .btn-grp .global-btn, .cookie-model-style .btn-grp .global-btn{margin: 0 3px;padding: 7px 6px;}
+    .footer-cookie .container-fluid {padding-right: 20px;padding-left: 20px;}
+    .track-section .box{padding:20px;}
+    .track-section .arrow-pointer{right: 84%;font-size: 16px;bottom: 8px;}
+    .track-section .arrow-pointer.order{top: -76px;left: -150px;}
+    .track-section .img-box .arrow_1{bottom: 60px;}
+    .hss-left-content img{max-width: 230px;}
+    .hss-left-content p{font-size: 18px;}
+    .lend-section .lend-box1 .lend-box1-arrow{left: -190px;top: 40%;}
+    .lend-section .lend-box1 .lend-box1-arrow img{max-width: 190px;}
+    .home-steps-number ul li h4{font-size: 54px;}
+    .lend-section .home-steps-number ul li{margin-bottom: 15px;}
+    .home-steps-number {padding: 40px 0;}
+    .price-box{padding: 20px 10px;min-height: 500px;}
+    .price-section .price-wrapper ul li{line-height: 14px;}
+    .data-wrap .btns button.global-btn{width: 146px;}
+}
+@media(max-width: 992px){
+    html,body{
+        overflow-x: hidden;
+    }
+    /*searchbox*/
+    .filter-form .input-box,.filter-form{
+        display: block;
+    }
+    .filter-form{
+        margin-top: 20px;
+        margin-bottom: 80px;
+        position: relative;
+    }
+    .filter-form .input-box .dropdown{
+        width: 100%;
+        border: 0;
+        font-size: 16px;
+        border: 1px solid #cbcbcb;
+        border-radius: 5px;
+        justify-content: flex-start;
+    }
+    .filter-form .search-box #result{
+        position: relative;
+        top: 60px;
+        padding: 0;
+    }
+    .filter-form .search-box #result li,
+    .filter-form #result .data[select2-id="ortorder"]{
+        margin-bottom: 5px;
+    }
+    .filter-form .input-box .dropdown::after{
+        top: 21px;
+        right: 10px;
+    }
+    .filter-form .search-box{
+        z-index: 2;
+    }
+    .filter-form .input-box .input{
+        border: 1px solid #cbcbcb;
+        border-radius: 4px;
+        padding: 9px 15px;
+        font-size: 16px;
+        max-width: calc(100% - 50px);
+        top: 8px;
+        /*background: url(../images/icons/search.png) 97% center no-repeat;*/
+        background-size: 18px;
+        padding-right: 35px;
+    }
+    .filter-form .input-box .full-width .input{
+        max-width: 100%;
+    }
+    .filter-form .input-box .full-width .search-btn{
+        right: 10px;
+    }
+    .filter-form .input-box .search-btn{
+        position: absolute;
+        right: 125px;
+        top: 14px;
+        font-size: 28px;
+    }
+    .filter-form .input-box{
+        border: 0;
+    }
+    .filter-form .btn{
+        position: absolute;
+        right: 0;
+        top: 49px;
+        height: 44px;
+    }
+    .filter-form .btn.open::after{
+        top: 20px;
+    }
+    .filter-form .btn::after{
+        right: 10px;
+        /*top: 16px;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);*/
+        background-size: 14px;
+    }
+    .product-detail-section .product-img{
+        padding-right: 0;
+    }
+    .product-detail-section .product-img .media-look .global-btn{
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+    .product-detail .product-count .counter{
+        margin-bottom: 10px;
+    }
+    .edit-products-wrap .product-detail .product-count .counter{
+        margin-bottom: 0;
+    }
+    .product-detail .quantity-btns .global-btn{
+        margin-top: 10px;
+    }
+    .close-menu{
+        display: flex;
+        display: -ms-flexbox;
+        justify-content: flex-end;
+        font-size: 20px;
+        color: #91cbd8;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 13px;
+    }
+    /*.product-filter .filter-selects{display: none;}*/
+    .selects-wrapper .filter-selects-mobile{
+        position: fixed;
+        width: 300px;
+        background: #ffffff;
+        right: -300px;
+        top: 0;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        height: 100%;
+        display: block;
+        padding: 30px 15px 0;
+        text-align: right;
+        z-index: 9999;
+        margin: 0;
+    }
+    .selects-wrapper .filter-selects-mobile.open{
+        box-shadow: 0px 0px 161px 0px rgb(0 0 0 / 69%);
+        -webkit-box-shadow: 0px 0px 161px 0px rgb(0 0 0 / 69%);
+        -moz-box-shadow: 0px 0px 161px 0px rgba(0, 0, 0, 0.69);
+        -o-box-shadow: 0px 0px 161px 0px rgba(0, 0, 0, 0.69);
+        right: 0;
+    }
+    .filter-selects-mobile .card{
+        border-radius: 0;
+        border: 0;
+    }
+    .filter-selects-mobile .card-header{
+        background: none;
+        padding: 10px 0;
+        border: 0;
+        font-size: 20px;
+        position: relative;
+        padding-left: 26px;
+    }
+    .filter-selects-mobile .card-header::before{
+        content: "\f2fa";
+        font-family: 'Material-Design-Iconic-Font';
+        position: absolute;
+        left: 13px;
+        top: 6px;
+        font-size: 28px;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+    .filter-selects-mobile .active .card-header::before{
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        color: #91cbd8;
+    }
+    .filter-selects-mobile .card-header a{
+        color: #707070;
+        display: block;
+    }
+    .filter-selects-mobile .active .card-header a{
+        color: #91cbd8;
+    }
+    .filter-selects-mobile .card-body{
+        padding: 5px 0 15px;
+        display: flex;
+        display: -ms-flexbox;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .filter-selects-mobile .checkmark{
+        border-radius: 0;
+        border-color: #707070;
+        width: 22px;
+        height: 22px;
+        left: auto;
+        right: 0;
+        top: -1px;
+    }
+    .filter-selects-mobile .check_container{
+        padding-left: 0;
+        padding-right: 30px;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    .filter-selects-mobile .check_container.active{
+        color: #91cbd8;
+    }
+    .filter-selects-mobile .check_container input:checked ~ .checkmark:after{
+        display: none;
+    }
+    .filter-selects-mobile .check_container input:checked ~ .checkmark{
+        background: #91cbd8;
+    }
+    /*.product-filter .selects-wrapper{display: block;}*/
+    .filter-selects-mobile .close-menu{
+        display: flex;
+        display: -ms-flexbox;
+        margin-bottom: 25px;
+        border-bottom: 1px solid #d1d1d1;
+        padding-bottom: 15px;
+    }
+    .funds-details .funds-info{
+        text-align: left;
+    }
+    .footer-links{
+        padding-bottom: 40px;
+    }
+    .filter-selects #mindestmenge{
+        min-width: 100%;
+        margin: 0 0 10px;
+    }
+    .filter-selects .select2-container,
+    #ort-order-plz{
+        min-width: 100%;
+        margin-left: 0;
+        width: 100%;
+    }
+    .selects-wrapper .distance .placeholder{
+        white-space: nowrap;
+        padding: 5px 21px 5px 0;
+    }
+    .filter-selects .select2-dropdown{
+        left: 0;
+    }
+    .filter-selects .ort-order{
+        flex: 1;
+    }
+    .product-filter .filter-selects{
+        display: block;
+        margin: 0;
+    }
+    .global-instruction-msg{
+        font-size: 14px;
+    }
+    .prop-store .funds-wrapper .fundus-enquiry-item .checkbox .tage{font-size: 14px;line-height: 22px;}
+    .toggle_button.location-toggle{display: flex;justify-content: flex-end;}
+    .toggle_button.location-toggle .btn-toggle{margin-right: 0;}
+    .location-toggle .infobox_location{left: auto;right: 0;}
+
+}
+@media(min-width: 767.01px) and (max-width: 992px){
+    .cat-products .pr-listing::after,
+    .cat-products .pr-listing::before{
+        width: 90px;
+    }
+    .cat-products h5{
+        font-size: 20px;
+    }
+    .cat-products .pr-listing a{
+        margin: 0 2px;
+        flex: 0 0 200px;
+    }
+    .filter-form .input-box .input{
+        max-width: calc(100% - 50px);
+        margin-top: 21px;
+    }
+    .filter-form .input-box .search-btn{
+        right: 217px;
+    }
+    .product-categories{
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .product-detail .quantity-btns .global-btn{
+        margin-top: 0;
+    }
+    .global-modal .modal-lg{
+        max-width: 680px;
+    }
+    #funds-data .modal-content,
+    #registeration-popup .modal-content{
+        padding: 25px;
+    }
+    .product-detail-section .product-img .product-thumns img{
+        height: 125px;
+    }
+    .funds-wrapper .product-wrap .col-sm-3,
+    .funds-wrapper .product-wrap .col-sm-9{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .funds-wrapper .product-wrap .product-img{
+        margin-bottom: 20px;
+    }
+    .product-dls-wrap .product-dls .dls{
+        margin-right: 25px;
+        margin-bottom: 10px;
+    }
+    .funds-wrapper .btns .global-btn{
+        padding: 5px 20px;
+    }
+    .funds-wrapper .product-dls-wrap .product-count {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .profile-wrapper .profile-pic img{
+        height: 80px;
+    }
+    .data-wrap .btns button{
+        width: 150px;
+    }
+    .item-add-edit .item-images{
+        padding-right: 0;
+    }
+    .close-menu{
+        display: none;
+    }
+    /*landing*/
+    .rent-section .col-md-5,
+    .rent-section .col-md-7,
+    .track-section .col-md-5,
+    .track-section .col-md-7,
+    .track-section .col-md-10,
+    .features-section .col-md-4{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .services-section .col-md-3,
+    .lend-section .col-md-9,
+    .lend-section .col-md-3{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .track-section .arrow-pointer{
+        font-size: 16px;
+        right: 34%;
+        bottom: -82px;
+    }
+
+    .lend-section .arrow-pointer{
+        display: none;
+    }
+    .features-section .box{
+        min-height: 0;
+        margin-bottom: 30px;
+        padding: 30px 0px 0;
+    }
+    .features-section h4{padding-left: 0;}
+    .track-section .img-box .arrow_1{
+        transform: rotate(50deg);
+        left: 20%;
+        bottom: auto;
+        top: 66px;
+    }
+    .track-section .img-box .arrow_2{
+        transform: rotate(5deg);
+        left: 30%;
+        top: 40px;
+    }
+    .services-section h5.twoline-text{
+        margin-top: 0;
+    }
+
+    .price-section .price-wrapper .price h3{
+        font-size: 16px;
+    }
+    .price-section .price-wrapper h6,.price-section .price-wrapper .price{
+        min-height: 50px;
+    }
+    .leihen-images.custom-img-slider{
+        text-align: center;
+    }
+    .fundus-upgradation-popup .col-md-4 #fundus_package-error{
+        right: -345px;
+    }
+    .favourite-funds.prop-store .funds-wrapper .product-wrap{
+        padding: 10px 0 10px 0;
+    }
+    .fundus-upgradation-popup #fundus_package-error{
+        right: -300px;
+    }
+    .funds-details .funds-info .col-sm-2 img{
+        height: 115px;
+    }
+    .product-filter .funds-details .contact-info .dls.artikel{
+        margin: 15px 0;
+    }
+    .funds-details .contact-info .email{
+        margin: 0;
+    }
+    .custom-dropdown .category-tab > .row > .col-sm-4{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .item-add-edit .custom-dropdown .category-tab ul li a{
+        font-size: 13px;
+    }
+    .item-add-edit .custom-dropdown .dropdown-wrap{
+        padding: 25px 10px;
+    }
+    .item-add-edit .custom-dropdown .category-tab .category-tab1-btn ul li{
+        text-align: right;
+    }
+    .shooting-period-date .favourite-funds-children-dates .funds-name-none-edit{font-size: 13px;}
+    .funds-name.meine-anfragen-header .name .date-of-request, .funds-wrapper .funds-name.meine-anfragen-header .name .user-info .name-user{
+        min-width: 110px;
+    }
+    .footer-cookie .container-fluid{padding-right: 20px;padding-left: 20px;}
+    .footer-cookie .btn-grp{margin-top: 10px;}
+    .footer-cookie .col-md-7,.footer-cookie .col-md-5{-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+    .top-header.header-loggedin.hovered .head-right a,
+    .top-header.header-loggedin .menu-wrapper .menu-items{min-width: 140px;}
+    .top-header.header-loggedin .logged-in-menu ul li a{font-size: 15px;}
+    .error-page-section h1{font-size: 120px;line-height: 120px;}
+    .error-page-section h3{font-size: 20px;}
+    .error-page-section p{font-size: 18px;line-height: 26px;}
+    .error-page-section h3.line-height-increase {line-height: 26px;}
+    .prop-store.favourite-funds .funds-name .btns .action select{min-width: auto;padding: 0 10px;}
+    .prop-store .funds-wrapper .product-dls-wrap .detail-row{display: flex;}
+    .home-section-leftcontent{padding: 0 0 30px;margin-top: 20px;}
+    .home-first-section .head{padding: 0;}
+    .home-first-section {padding: 0px 0 30px;}
+    .hss-left-content p{font-size: 18px;}
+    .hss-left-content {
+        max-width: 450px;
+        padding: 20px 20px 20px 20px;
+    }
+    .home-second-section{margin: 20px 0;}
+    .hss-right-content,.lend-section .lend-box1{padding: 30px;}
+    .home-second-section .hss-right .hss-right-content h3{font-size: 20px;}
+    .home-second-section .hss-right .hss-right-content p{font-size: 18px;margin: 20px 0 0;}
+    .hss-left-content img{max-width: 230px;}
+    .product-categories li a{font-size: 16px;margin-left: 20px;}
+    .home-first-section .rowheight{height: 540px;}
+    .home-steps-number ul li{padding: 0 10px;margin-bottom: 0;}
+    .track-section .arrow-pointer.order{
+        padding-top: 10px;
+        left: auto;
+        right: 0;
+        top: -30px;
+    }
+    .track-section .arrow-pointer.order p{
+        margin-bottom: 0;
+    }
+    .category-block{
+        padding: 0px 0 30px;
+    }
+    .lend-section .img-box{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .track-section .img-box .arrow_1{
+        transform: rotate(-40deg);
+        left: 10%;
+        top: auto;
+        bottom: -20px;
+    }
+    .track-section .img-box .arrow_1 img, .track-section .img-box .arrow_2 img{max-width: 70px;}
+    .track-section .img-box .arrow_2{
+        transform: rotate(111deg);
+        right: 10%;
+        top: 190px;
+        bottom: auto;
+    }
+    .intro-section h6,.intro-section p{
+        font-size: 18px;
+    }
+    .img-box{
+        padding: 16px;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+    }
+    .track-section .col-md-4,.track-section .col-md-8,.lend-section .col-md-9,.lend-section .col-md-3,.price-section .price-wrapper .col-md-3{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home-steps-number {padding: 30px 0;}
+    .track-paddingtop{padding-top: 10px;}
+    .lend-section .home-steps-number ul{display: flex;}
+    .services-section{padding: 10px 0 20px;}
+    .common-spacer-topbot {padding: 30px 0;}
+    .lend-section,.lend-section .home-steps-number {padding-bottom: 0;}
+    .price-section {padding: 0px 0 30px;}
+    .lend-section .home-steps-number ul li {margin-bottom: 0;}
+    .lend-section .lend-box1{width: 100%;margin-bottom: 80px;}
+    .lend-section .lend-box1 .lend-box1-arrow {
+        left: 20px;
+        top: 120%;
+    }
+    .lend-section .lend-box1 .lend-box1-arrow img {
+        transform: rotate(-107deg);
+        max-width: 110px;
+    }
+    .track-section .content {padding-right: 0;}
+    .track-section .box{padding: 40px 40px;}
+    .price-box {
+        padding: 30px 20px;
+        min-height: auto;
+    }
+    .price-section .price-wrapper .row .pr-col1:after {
+        right: 0;
+        top: auto;
+        bottom: -16px;
+        height: 2px;
+        width: 90%;
+        margin: 0 auto;
+        left: 0;
+    }
+    .price-section .price-wrapper .row .col-md-3 {
+        margin-bottom: 30px;
+    }
+    .price-wrapper .pr-col2 {margin-left: 0;}
+    .price-wrapper .pr-col-common {margin-right: 0;}
+    .category_menu_mobile{display: none;}
+    .product-filter.category-landing,.product-filter{margin-top: 30px;}
+    .my-data-section .data-wrap h4,.data-wrap .data p{font-size: 14px;}
+    .title_right_text{font-size: 12px;line-height: 14px;}
+    .upload-doc label .icon img{max-width: 14px;}
+    .data-wrap .btns button.global-btn{font-size: 12px;padding: 4px 8px 3px;width: auto;}
+    .data-wrap .btns .global-btn{padding: 4px 16px 3px;font-size: 12px;}
+    .my-data-section .data-inner > .row > .col-md-6 {padding: 0 10px;}
+    .my-data-section .data-inner > .row {margin: 0 -10px;}
+    .upload-doc label{padding: 2px 8px;font-size: 12px;}
+    .footer-links li a{margin: 0 15px;}
+    .funds-wrapper .funds-name .name h6,.funds-wrapper .funds-name .name .user-info,.funds-wrapper .funds-detail-ac .card .card-link{font-size: 12px;}
+    .prop-store .funds-wrapper .product-dls-wrap .product-name h5{max-width: 50%;margin-bottom: 0;font-size: 16px;}
+    .fundus-enquiry .save-fundus-wrap .check_container{font-size: 12px;}
+    .product-filter .funds-details>.row{flex-direction: column-reverse;}
+    .funds-details .funds-info{margin-bottom: 20px;}
+    .filter-form .hint-box-global{top: 100px;}
+    .prop-store .funds-wrapper .product-dls-wrap .detail-col{margin-left: 10px;}
+    .prop-store .funds-wrapper .product-dls-wrap .detail-col>label{line-height: 14px;}
+    .prop-store .delete_product_btn{font-size: 18px;line-height: 1.4;}
+    .fundus-enquiry .add-produc-wrap .replacement_value .form-control{width: 120px;}
+    .funds-wrapper .funds-detail-ac .card .card-link::before{top: 2px;}
+    .funds-wrapper .funds-detail-ac .card .card-link span.motiv-after-dates{
+        word-wrap: break-word;
+        max-width: 170px;
+    }
+
+}
+@media(max-width: 767px){
+    .global-modal .modal-body{
+        padding-top: 30px;
+    }
+    .item-add-edit .keywords{
+        margin-bottom: 20px;
+    }
+    .item-add-edit label.color{
+        margin-bottom: 10px;
+    }
+    .data-wrap .title_right_text{
+        margin-left: 0;
+        display: block;
+        float: none;
+    }
+    .subscribe #account_type-error{
+        position: static;
+        min-width: 0;
+    }
+    .global-modal .subscribe .row .col-md-6:first-child,
+    .global-modal .subscribe .row .col-md-4:not(:last-child){
+        border: 0;
+        /*border-bottom: 1px solid #cccc;*/
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+    .categories-wrap #nav-icon2{
+        display: block;
+        margin-left: auto;
+    }
+    .categories-wrap .catergory-list{
+        position: fixed;
+        display: block;
+        width: 300px;
+        background: #ffffff;
+        right: -300px;
+        top: 0;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        height: 100%;
+        display: block;
+        padding: 50px 25px 0;
+        text-align: right;
+        z-index: 9999;
+    }
+    .categories-wrap.open .catergory-list{
+        right: 0;
+        box-shadow: 0px 0px 161px 0px rgba(0, 0, 0, 0.69);
+        -webkit-box-shadow: 0px 0px 161px 0px rgba(0, 0, 0, 0.69);
+        -moz-box-shadow: 0px 0px 161px 0px rgba(0, 0, 0, 0.69);
+        -o-box-shadow: 0px 0px 161px 0px rgba(0, 0, 0, 0.69);
+    }
+    .product-categories li a{
+        margin-left: 0;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .product-categories li a.active{
+        color: #91cbd8;
+    }
+    .product-categories{
+        padding: 0;
+        display: block;
+    }
+
+    .cat-products .pr-listing::after,
+    .cat-products .pr-listing::before{
+        width: 40px;
+    }
+    .cat-products h5{
+        font-size: 22px;
+    }
+    .cat-products .pr-listing a{
+        margin: 0 2px;
+        flex: 0 0 250px;
+    }
+    .register-login h5{
+        font-size: 18px;
+        padding: 0 30px;
+    }
+    .register-login h5 span{
+        padding: 5px 15px;
+    }
+    .register-login .btns a{
+        font-size: 14px;
+        width: 140px;
+        margin: 2px;
+    }
+    .footer-links li a{
+        font-size:16px;
+        margin: 5px 15px;
+        text-align: center;
+    }
+    #login-modal .modal-content{
+        padding: 10px;
+    }
+    #funds-data .modal-content,
+    #registeration-popup .modal-content{
+        padding: 10px;
+    }
+    #registeration-popup .form-progress{
+        margin-bottom: 40px;
+    }
+    #registeration-popup h3{
+        margin-bottom: 25px;
+    }
+    .global-modal .form-group{
+        margin-bottom: 15px;
+    }
+    .global-modal .modal-content .btns{
+        margin-top: 20px;
+    }
+    #project-data .modal-content .global-btn,
+    #funds-data .modal-content .global-btn,
+    #registeration-popup .modal-content .global-btn{
+        margin: 7px 2px;
+    }
+    .form-progress li{
+        font-size: 11px;
+    }
+    .project-popup .modal-content{
+        padding: 10px;
+    }
+    .form-progress{
+        margin-bottom: 40px;
+    }
+    .project-popup .btns{
+        margin-top: 25px;
+    }
+    .project-popup .btns button{
+        margin: 3px;
+    }
+    .top-header.header-loggedin .head-right a{
+        font-size: 18px;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+    .logged-in-menu ul li a{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .product-detail-section .top-btns{
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .product-detail-section .top-btns .custom-dropdown{
+        width: 100%;
+        margin: 10px 0 5px;
+    }
+    .product-detail-section .top-btns .custom-dropdown .dropdown-wrap .col-sm-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .product-detail-section .top-btns .global-btn{
+        padding: 5px 10px;
+        margin-bottom: 5px;
+    }
+    .item-add-edit .item-images{
+        padding-right: 0;
+    }
+    .global-accordion .card-body{
+        padding: 10px 15px;
+    }
+    .daterangepicker .calendar-table th,
+    .daterangepicker .calendar-table td{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .funds-wrapper .funds-detail-ac .card{
+        padding: 15px;
+    }
+    .funds-wrapper .product-dls-wrap .product-count{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .product-dls-wrap .product-dls .dls{
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .funds-list .funds-wrapper .funds-name{
+        padding: 15px;
+        display: block;
+        position: relative;
+    }
+    .funds-wrapper .btns{
+        display: block;
+        margin-top: 15px;
+    }
+    .funds-wrapper .btns .global-btn{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .funds-wrapper .check_container{
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        z-index: 99;
+    }
+    .funds-wrapper .product-wrap .col-sm-3,
+    .funds-wrapper .product-wrap .col-sm-9,
+    .funds-wrapper .product-wrap .col-sm-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .funds-wrapper .product-dls-wrap .product-name h5{
+        margin-top: 10px;
+    }
+    .my-data-section .col-md-6{
+        margin-bottom: 45px;
+    }
+    .my-data-section .data-inner > .row{
+        margin: -15px;
+    }
+    .my-data-section .data-inner > .row > .col-md-6{
+        padding: 0 15px;
+    }
+    #funds-data .form-progress{
+        margin-bottom: 35px;
+    }
+    #project-data h3, #funds-data h3{
+        margin-bottom: 30px;
+    }
+    #funds-data .check_container{
+        font-size: 16px;
+    }
+    .cat-products .pr-listing a img{
+        height: 95px;
+    }
+    .cat-products .pr-listing a{
+        display: none;
+        flex: 1!important;
+    }
+    .cat-products .pr-listing a:nth-child(1),
+    .cat-products .pr-listing a:nth-child(2),
+    .cat-products .pr-listing a:nth-child(3){
+        display: block;
+    }
+    .filter-form .input-box.open-dropdown .category-dropdown > .row{
+        margin: 0 -5px;
+    }
+    .filter-form .input-box.open-dropdown .category-dropdown .col-sm-3{
+        flex: 0 0 45%;
+        max-width: 45%;
+        padding: 0 5px;
+    }
+    .filter-form .input-box.open-dropdown .category-dropdown .col-sm-9{
+        flex: 0 0 55%;
+        max-width: 55%;
+        padding: 0 5px;
+    }
+    .filter-form .category-dropdown .tab-pane{
+        padding-left: 0;
+    }
+    .filter-form .input-box .input{
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 21px;
+    }
+    .filter-form .category-dropdown .tab-pane ul li a,
+    .filter-form .category-dropdown .nav-tabs .nav-link{
+        font-size: 14px;
+    }
+    #registeration-popup .registeration-data .row{
+        margin: 0 -15px;
+    }
+    #registeration-popup .registeration-data .col-md-6{
+        padding: 0 15px 20px;
+    }
+    #registeration-popup .registeration-data .col-md-6:first-child,
+    #registeration-popup .registeration-data .col-md-6:nth-child(odd){
+        border: 0;
+    }
+    .funds-details .funds-info .col-sm-2 img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 12px;
+    }
+    .funds-details .funds-info h2{
+        font-size: 28px;
+    }
+    .product-detail-section .product-img .media-look .col-sm-4{
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .product-detail-section .product-img .media-look .col-sm-8{
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .profile-wrapper .profile-pic{
+        text-align: left;
+        width: 130px;
+    }
+    .my-data-section .profile-wrapper{
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    #cropCanvas{
+        width: 100%;
+    }
+    .profile-wrapper .profile-pic img{
+        width: 130px;
+    }
+    .color-palette .color-name{
+        bottom: -17px;
+        font-size: 12px;
+    }
+    .info-placeholder{
+        z-index: 10;
+        width: 84%;
+        right: 10%;
+        top: -10px;
+    }
+    #project-detail .product-detail-section .product-detail{
+        margin-top: 20px;
+    }
+    #registeration-popup .btns .row{
+        flex-direction: column-reverse;
+    }
+    .fancybox-container .fancybox-inner .fancybox-toolbar{
+        opacity: 1;
+        visibility: visible;
+    }
+    .my-data-section .data-inner .data-wrap > .row,
+    .my-data-section .data-inner .data-wrap form > .row{
+        min-height: 0;
+        flex-direction: column-reverse;
+    }
+    .data-wrap .btns{
+        flex-direction: column-reverse;
+    }
+    .filter-form .category-dropdown ul li a{
+        font-size: 13px;
+        padding: 2px 7px;
+        display: inline-block;
+    }
+    .filter-form .category-dropdown .col-sm-9.col-right .col-right-left,
+    .filter-form .category-dropdown .col-sm-9.col-right .col-right-right{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .custom-dropdown .category-tab > .row{
+        margin: 0 -5px;
+        justify-content: flex-end;
+    }
+    .custom-dropdown .category-tab > .row > .col-sm-5,
+    .custom-dropdown .category-tab > .row > .col-sm-4,
+    .custom-dropdown .category-tab > .row > .col-sm-3,.product-detail-section .product-img .product-thumns .col-sm-6,.product_image_upload_row .col-sm-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 7px;
+    }
+    .custom-dropdown .category-tab > .row > .col-sm-4 > .category-tab-content{
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    .funds-wrapper .funds-name .name h6{
+        font-size: 16px;
+    }
+    .funds-wrapper .funds-name .name p{
+        font-size: 14px;
+    }
+    .funds-wrapper .funds-detail-ac .card .card-link{
+        font-size: 14px;
+        padding-right: 20px;
+    }
+    .funds-wrapper .funds-detail-ac .card .card-link .tage.tage-inquiry{
+        /*padding-left: 136px;*/
+        font-size: 14px;
+    }
+    .product-detail-section .product-img .main-img img,.item-add-edit .item-images .item-img img,.img-upload.lg label{
+        height: 230px;
+    }
+    .img-upload.lg label{
+        min-height: 230px;
+    }
+    .product-detail-section .product-img .product-thumns img,#project-detail .product-detail-section .product-img .product-thumns img{
+        height: 100px;
+    }
+    .product-filter .funds-details .row{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+    .top-header .head-right a{
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    .tax-cls-payment p{
+        font-size: 13px;
+    }
+    .funds-details .funds-info .desciption .content{
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+    #project-detail .product-detail-section .product-img .media-look{
+        position: static;
+    }
+    #project-detail .product-detail-section .product-img .media-look.media-look-desktop{
+        display: none;
+    }
+    #project-detail .product-detail-section .product-img.media-look-mobile{
+        display: block;
+    }
+    #project-detail .product-detail-section .product-img{
+        padding-bottom: 0;
+    }
+    .popup-content-minheight{
+        min-height: auto;
+    }
+    .article-dls.artikelnummer-bottomfix{
+        margin: 30px 0 0;
+        position: static;
+    }
+    .fundus-upgradation-popup .modal-body{
+        padding: 0;
+    }
+    .fundus-upgradation-popup .close{
+        right: 10px;
+        top: 13px;
+    }
+    .fundus-upgradation-popup .close img{
+        max-width: 18px;
+    }
+    .fundus-upgradation-popup #fundus_package-error,.fundus-upgradation-popup #infinite_subscription_type-error,.fundus-upgradation-popup #fundus_subscription_type-error{
+        position: static;
+        min-width: 0;
+    }
+    .infinite-fundus-upgrade-complete .row .col-sm-6{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .category_menu_mobile .active_categoryname_mobile{
+        display: block;
+    }
+    /*landing*/
+    .intro-section img{
+        max-width: 250px;
+    }
+    .intro-section{
+        min-height: 270px;
+    }
+    .heading-global{
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px;
+        font-size: 22px;
+    }
+    .rent-section .box{
+        padding: 25px;
+        text-align: justify;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+    }
+    .rent-section .content{
+        padding: 0;
+    }
+    .services-section .col-md-3{
+        margin-bottom: 0;
+    }
+    .services-section .col-md-3:last-child{
+        margin-bottom: 0px;
+    }
+    .services-section{
+        padding: 30px 0 0px;
+    }
+    .track-section .box{
+        padding: 25px;
+        text-align: left;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+        border-radius: 0;
+    }
+    .track-section .content{
+        padding: 0;
+    }
+    .track-section .arrow-pointer{
+        margin-top: 10px;
+        margin-bottom: 70px;
+    }
+    .lend-section .lend-right{
+        padding: 0;
+        margin-top: 20px;
+    }
+    .lend-section .box{
+        padding: 25px;
+        text-align: justify;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+    }
+    .rent-section .box p,.track-section .box p{
+        margin-bottom: 0;
+    }
+    .lend-section .arrow-pointer{
+        text-align: center;
+        margin-bottom: -25px;
+    }
+    .lend-section .arrow-pointer img{
+        width: 70px;
+    }
+    .features-section .box{
+        margin-bottom: 20px;
+        min-height: auto;
+        padding:25px;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+    }
+    .features-section{
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .lend-section{
+        padding-bottom: 0;
+    }
+    .price-section .price-head h6{
+        margin-bottom: 20px;
+        font-size: 22px;
+        max-width: 90%;
+    }
+    .price-section .price-head h5{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .price-section .price-wrapper .row .col-md-3:first-child{
+        border: 0;
+    }
+    .price-section .price-wrapper .row .col-md-3{
+        margin-bottom: 30px;
+    }
+    .price-section .price-wrapper .price{
+        min-height: 0;
+    }
+    .track-section .arrow-pointer.order{
+        padding-top: 20px;
+    }
+    .track-section .arrow-pointer.order p{
+        margin-bottom: 0;
+    }
+    .category-block{
+        padding: 0px 0 30px;
+    }
+    .lend-section .img-box{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .track-section .img-box .arrow_1{
+        transform: rotate(-40deg);
+        left: 10%;
+        top: auto;
+        bottom: -20px;
+    }
+    .track-section .img-box .arrow_1 img, .track-section .img-box .arrow_2 img{max-width: 70px;}
+    .track-section .img-box .arrow_2{
+        transform: rotate(111deg);
+        right: 10%;
+        top: auto;
+        bottom: 30px;
+    }
+    .intro-section h6,.intro-section p{
+        font-size: 18px;
+    }
+    .img-box{
+        padding: 16px;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+    }
+    .services-section p{
+        text-align: left;
+    }
+    .services-section .col-md-3 p{
+        margin: 0 0 40px;
+        padding: 0 10px;
+    }
+    .features-section h4{
+        margin-bottom: 10px;
+    }
+    .features-section .box p{
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .price-section{
+        padding: 20px 0;
+    }
+    .services-section h5{
+        min-height: auto;
+        margin: 0px 0 10px 10px;
+    }
+    .services-section h5.twoline-text{
+        margin-top: 0;
+    }
+    .price-section .price-wrapper .price h3{
+        font-size: 18px;
+    }
+    .filter-form .category-dropdown{
+        padding-top: 40px;
+        width: 100%;
+    }
+    .edit-products-wrap .fundus-dates-wrap{
+        min-width: 180px;
+    }
+    .selects-wrapper .distance{
+        flex: 0 0 100px;
+    }
+    #ort-order-plz {
+        text-align: right;
+    }
+    .filter-selects #mindestmenge{
+        text-align: right;
+    }
+    .funds-wrapper .funds-detail-ac .card .card-link .tage.tage-inquiry{
+        margin: 6px 4px 0 0;
+    }
+    .funds-wrapper .funds-detail-ac .card .card-link span{
+        margin: 0 10px 0 0;
+    }
+    .favourite-funds .fundus-enquiry .fundus-dates-wrap{
+        flex: 0 0 173px;
+        max-width: 173px;
+        margin-bottom: 0;
+        border: 0;
+        border-bottom: none;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+    .funds-wrapper .funds-name .name {
+        padding-right: 30px;
+    }
+    .prop-store .funds-wrapper .btns .global-btn{
+        margin-left: 0;
+    }
+    .category-landing .register-login h5 span{
+        padding: 0 15px;
+    }
+    .category-landing .register-login .btns{
+        display: flex;
+    }
+    .category-landing .register-login .btns a{
+        min-width: 50%;
+    }
+    .funds-wrapper .fundus-enquiry .text-right.mt-5{
+        margin-top: 0!important;
+    }
+    .prop-store .funds-wrapper .product-dls-wrap .select-count{
+        justify-content: flex-start;
+    }
+    .prop-store .funds-wrapper .fundus-enquiry .product-dls-wrap .product-dls{
+        display: block;
+    }
+    .fundus-enquiry .add-produc-wrap .product_unit_price .form-group{
+        position: static;
+        margin-top: 10px;
+    }
+    .fundus-enquiry .add-produc-wrap .form-group .form-control.input-price{
+        max-width: 100%;
+    }
+    #favourite-theme .global-accordion .card-header{
+        padding: 7px 15px;
+        display: block;
+    }
+    #favourite-theme.edit-products-wrap .dates-container{
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    #favourite-theme .global-accordion .card-header .group-theme-button{
+        padding-left: 22px;
+        margin-top: 5px;
+        align-items: center;
+    }
+    #favourite-theme .global-accordion .card-header .group-theme-button a{
+        margin-top: 0px;
+        position: absolute;
+        right: -10px;
+        top: 0px;
+    }
+    #favourite-theme.edit-products-wrap .input-fields .form-control{
+        font-size: 14px;
+    }
+    #favourite-theme.edit-products-wrap .input-fields span{
+        font-size: 14px;
+    }
+    #favourite_funds .funds-wrapper .btns .global-btn{
+        margin-left: 0;
+    }
+    #favourite-theme.edit-products-wrap .input-fields .edit-funds-name{
+        min-width: 100%;
+    }
+    #favourite_funds.edit-products-wrap .fundus-dates-wrap{
+        border: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    #favourite-theme.edit-products-wrap .input-fields{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .prop-store .funds-wrapper .product-dls-wrap .select-count{
+        display: block;
+    }
+    .prop-store .funds-wrapper .product-dls-wrap .product-count{
+        display: flex;
+        justify-content: right;
+    }
+    .prop-store.favourite-funds .fundus-enquiry .fundus-dates-container{
+        display: block;
+    }
+    #project-detail .product-detail .quantity-btns .global-btn{
+        font-size: 14px;
+    }
+    #favourite-theme.edit-products-wrap .edit-button .save{
+        font-size: 12px;
+        margin-top: 0px;
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 24px;
+    }
+
+    .product-detail-section{
+        padding: 30px 0;
+    }
+    .favourite-funds.prop-store .funds-wrapper .product-wrap{
+        padding: 10px;
+        margin: 0;
+    }
+    .favourite-funds.prop-store .product-dls-wrap{
+        padding-top: 0;
+    }
+    .fundus-enquiry .add-produc-wrap .form-group .form-control.artikel{
+        margin-top: 0px;
+    }
+    .prop-store .funds-wrapper .fundus-enquiry-item .checkbox .tage{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .funds-wrapper .funds-detail-ac .card .card-header{
+        align-items: flex-start;
+    }
+    .prop-store .funds-wrapper .funds-detail-ac #funds-accordion1{
+        padding-left: 0;
+    }
+    .prop-store .funds-wrapper .funds-detail-ac .card{
+        padding: 8px 15px 8px 14px;
+    }
+    .prop-store .funds-list .funds-wrapper .funds-name{
+        padding-left: 10px;
+    }
+    .prop-store .funds-list .funds-wrapper .funds-name::before{
+        left: 13px;
+    }
+    .prop-store .funds-wrapper .fundus-enquiry-item .checkbox .tage{
+        padding-top: 2px;
+    }
+    .favourite-funds.prop-store .funds-wrapper .product-wrap > .row > .col-sm-2{
+        padding: 0 0px;
+    }
+    .funds-wrapper .fundus-enquiry .product-wrap .product-img img{
+        height: 160px;
+    }
+    .prop-store .funds-wrapper .product-dls-wrap .fundus-enquiry-sm-8{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .prop-store .funds-wrapper .product-dls-wrap .detail-row{
+        display: block;
+    }
+    .prop-store .funds-wrapper .product-dls-wrap .detail-col{
+        text-align: left;
+        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .prop-store .funds-wrapper .product-dls-wrap .fundus-enquiry-sm-8 .value-parent{
+        text-align: right;
+        margin-bottom: 0px;
+    }
+    .prop-store .funds-wrapper .product-dls-wrap .fundus-enquiry-sm-8 .value-parent .value span:last-child{
+        margin-right: 0 !important;
+    }
+    .funds-wrapper .product-dls-wrap .product-name p{
+        margin-bottom: 10px;
+    }
+    .favourite-funds .fundus-enquiry .add-fundus-enquiry{
+        font-size: 22px;
+        width: 92%;
+        float: right;
+    }
+    .prop-store .product-count .counter{
+        min-width: 90px;
+    }
+    .prop-store .funds-wrapper .product-dls-wrap .select-count .count{
+        margin-right: 8px;
+        margin-top: 0;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .data-wrap .btns button{
+        margin-right: 0;
+    }
+    .prop-store .funds-list .funds-name .user-info .email{
+        margin-left: 0px;
+    }
+    .prop-store .funds-wrapper .funds-name .name{
+        padding-right: 0;
+    }
+    .prop-store .funds-wrapper .funds-name .name h6{
+        padding-right: 22px;
+        margin-bottom: 5px;
+    }
+    .add-fundus-btn-wrap{
+        padding: 0 17px 0 0;
+    }
+    .fundus-enquiry .save-fundus-wrap .btns{
+        padding: 10px 18px 0 23px;
+    }
+    .prop-store .funds-wrapper .product-dls-wrap .detail-col{
+        display: block;
+        text-align: right;
+    }
+    .prop-store .funds-wrapper .product-dls-wrap .detail-col label.angebotspreis-mt{
+        margin-top: 0px;
+    }
+    .funds-wrapper .fundus-enquiry .input-price[type=number]{
+        margin-left: auto;
+    }
+    .add-fundus-wrap .save-fundus-wrap .check_container{
+        margin-left: 35px;
+        position: relative;
+    }
+    .add-fundus-wrap .save-fundus-wrap .check_container .checkmark{
+        top: 3px;
+    }
+    .modal{
+        overflow-y: auto!important;
+    }
+    #fav-popup .btns .global-btn{
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .prop-store .funds-list .funds-wrapper .funds-name .name{
+        padding-left: 20px;
+    }
+    .filter-form .input-box .search-btn i{
+        display: block;
+        color: #000;
+        line-height: 30px;
+    }
+    .filter-form .input-box .search-btn{
+        margin: 0;
+        right: 132px;
+        width: 30px;
+    }
+    .favourite-funds .fundus-enquiry .fundus-dates-wrap{
+        width: auto;
+    }
+    #registeration-popup .box-shadow{
+        min-height: 0;
+    }
+    .data-wrap .btns button.global-btn{
+        width: 100%;
+        margin-right: 0;
+    }
+    .fundus-enquiry .save-fundus-wrap .btns{
+        margin-top: 15px;
+    }
+    .item-add-edit .dimension-fields .unit{
+        flex: 0 0 65px;
+        margin-left: 5px;
+    }
+    .item-add-edit .dimension-fields .multiply{
+        margin: 0 5px;
+    }
+    .data-wrap .btns.csv-btns{
+        display: block;
+    }
+    .data-wrap .btns.csv-btns .btn-wrap{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .data-wrap .btns.csv-btns .upload-doc label{
+        display: block;
+        text-align: center;
+    }
+    .fundus-upgradation-popup .box-wrapper{
+        min-height: 0;
+    }
+    .funds-details .funds-info .col-sm-2{
+        max-width: 130px;
+    }
+    .global-modal .downloads-wrap{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .global-modal .downloads-wrap .global-btn{
+        margin: 5px 0;
+    }
+    .global-modal#bulk-upload .modal-content{
+        padding: 20px;
+    }
+    .item-add-edit .custom-dropdown .category-tab .category-tab1-btn ul li{
+        text-align: right;
+    }
+    .item-add-edit .custom-dropdown .dropdown-wrap{
+        padding: 25px 10px;
+    }
+    .item-add-edit .custom-dropdown .category-tab ul li a{
+        font-size: 13px;
+    }
+    .item-add-edit .custom-dropdown .category-tab > .row > .col-sm-4 > .category-tab-content{
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    #proinfinit-popup #fundus-confirm-payment .complete-order-wrap {
+        padding: 0 6px;
+    }
+    .fundus-upgradation-popup .modal-content .complete-proinfinit-body-inner{
+        padding: 10px 0px 0;
+    }
+    .funds-name.meine-anfragen-header .name .date-of-request, .funds-wrapper .funds-name.meine-anfragen-header .name .user-info .name-user{min-width: 90px;}
+    #favourite-theme .global-accordion .card-header{display: flex;align-items: start;}
+    .favourite_main_section .products-container .item-box .product-detail,#favourite-theme.favourite_main_section .products-container .item-box,#favourite_funds.favourite_main_section .products-container .item-box{background: transparent;}
+    #favourite-theme.favourite_main_section .global-accordion .card-header .card-link::before{top: 5px;}
+    .shooting-period-date .fundus-dates-wrap .fundus-dates{display: flex;margin-bottom: 4px;align-items: center;min-width: auto;}
+    .shooting-period-date .fundus-dates-wrap .period-date{margin: 0 4px;min-width: 114px;padding: 4px 2px;font-size: 9px;}
+    .shooting-period-date .fundus-dates .start_date .form-control, .shooting-period-date .fundus-dates .end_date .form-control,.send-message-favoriten-fundus .shooting-period-date .fundus-dates .start_date .form-control, .send-message-favoriten-fundus .shooting-period-date .fundus-dates .end_date .form-control{
+        width: 100%;
+        margin: 3px 0;
+        padding: 0 5px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .shooting-period-date .fundus-dates-desc .end-date-txt{min-width: 24%;}
+    .shooting-period-date .fundus-dates-desc .start-date-txt{min-width: 26%;}
+    .shooting-period-date .fundus-dates-desc .period-date-txt{min-width: 40%;}
+    .funds-wrapper .funds-detail-ac.shooting-period-date .card .card-link{padding-right: 0;}
+    .shooting-period-date .fundus-dates-wrap .fundus-dates .start_date,.shooting-period-date .fundus-dates-wrap .fundus-dates .end_date{min-width: 70px;}
+    .shooting-period-date .favourite-funds-children-dates .fundus-dates-container {flex-direction: column-reverse;}
+    .shooting-period-date .info-message .info_icon{right: 25px;top: 14px;}
+    .shooting-period-date .favourite-funds-children-dates .funds-name-none-edit{margin-bottom: 10px;}
+    .btn-toggle{margin: 3px 2px;height: 14px;width: 28px;}
+    .shooting-period-date .toggle_button{width: 30px;flex: 0 0 30px;}
+    .funds-wrapper .funds-detail-ac.shooting-period-date .card .card-link{padding-left: 20px;}
+    .btn-toggle > .handle{width: 10px;height: 10px;}
+    .btn-toggle.active > .handle{left: 15px;}
+    #favourite-theme.edit-products-wrap .input-fields .daterange-single2,
+    #favourite-theme.edit-products-wrap .input-fields .daterange-single2-fb-theme,
+    #favourite-theme.edit-products-wrap .input-fields .daterange-single2add{width: 85px;}
+    .shooting-period-date .card.active .fundus-dates .start_date .form-control, .shooting-period-date .card.active .fundus-dates .end_date .form-control {
+        padding: 0 2px;
+        font-size: 11px;
+        border: 1px solid #979797;
+    }
+    .shooting-period-date .fundus-dates-wrap .period-date.period-color:after{top: 103%;left: 0;}
+    .global-modal.send-message-favoriten-fundus .modal-content{padding: 0;}
+    .fundus-dates-desc{font-size: 11px;}
+    .funds-wrapper .shooting-period-date.funds-detail-ac .card .card-link::before{top: 5px;}
+    .funds-wrapper .product-dls-wrap .product-name p{display: none;}
+    .fundus-detail-new .product-detail .dls .dls-lft{margin-right: 10px;}
+    .prop-store .funds-wrapper .product-dls-wrap .detail-col{display: flex;text-align: left;align-items: center;margin-bottom: 4px;}
+    .prop-store .funds-wrapper .product-dls-wrap .detail-col label{flex: 0 0 170px;margin-bottom: 0;}
+    #fundus_inquiry_form .fundus-enquiry .add-produc-wrap .replacement_value .form-control{width: 90px;}
+    .prop-store #fundus_inquiry_form .delete_product_btn{font-size: 16px;margin-top: 2px; margin-right: 10px;}
+    .favourite-funds .funds-wrapper .funds-name.meine-anfragen-header .btns{display: flex;justify-content: space-between;}
+    .favourite-funds .funds-wrapper .funds-name.meine-anfragen-header .btns .action-parent .action{display: block;}
+    .favourite-funds .funds-wrapper .funds-name.meine-anfragen-header .btns .action-parent .action select{margin-bottom: 4px;padding: 0 16px;}
+    .favourite-funds .funds-wrapper .funds-name.meine-anfragen-header .btns .requestnumber{
+        text-align: left;
+        margin-bottom: 0;
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    #favourite_funds .funds-wrapper .funds-detail-ac .card{padding: 15px 15px 8px;}
+    .footer-cookie{padding: 20px 0 20px;}
+    .footer-cookie .container-fluid {padding-right: 20px;padding-left: 20px;}
+    .footer-cookie .container-fluid p{font-size: 12px;}
+    .footer-cookie .container-fluid .btn-grp .global-btn, .cookie-model-style .btn-grp .global-btn{
+        padding: 7px 8px;
+        margin: 0 0px;
+        font-size: 12px;
+    }
+    .cookie-model-style .btn-grp .global-btn{padding: 7px 5px;font-size: 11px;}
+    .footer-cookie .container-fluid .btn-grp, .cookie-model-style .btn-grp{justify-content: space-between;margin-top: 10px;}
+    .cookies-body .col-sm-8{-ms-flex: 0 0 66.666667%;flex: 0 0 66.666667%;max-width: 66.666667%;}
+    .cookies-body .col-sm-4{-ms-flex: 0 0 33.333333%;flex: 0 0 33.333333%;max-width: 33.333333%;}
+    .cookies-body .col-sm-8 b{font-size: 16px;padding-left: 0;}
+    .cookie-model-style .cookies-body {padding: 10px 0; font-size: 12px;}
+    .cookie-model-style .modal-body{padding: 6px 0;}
+    .cookie-list-model .modal-dialog {max-width: none;}
+    .footer-space {padding-bottom: 200px;}
+    /*header new css*/
+    .top-header.header-loggedin .header-inner{padding: 8px 0;}
+    .top-header.header-loggedin .menu-toggle-btn{display: inline-block;padding: 0;}
+    .top-header.header-loggedin .logged-in-menu{
+        display: block;
+        position: fixed;
+        width: 300px;
+        top: 54px;
+        right: -300px;
+        left: auto;
+        background: #ffffff;
+        height: 100%;
+        z-index: 999;
+        padding: 30px;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+    .top-header.header-loggedin .logged-in-menu.menu-open{
+        box-shadow: -140px 4px 30px rgb(0 0 0 / 15%);
+        right: 0;
+    }
+    .top-header.header-loggedin .logged-in-menu .container-fluid{padding: 0;}
+    .top-header.header-loggedin .head-right{display: none;}
+    .top-header.header-loggedin .menu-wrapper{display: block;}
+    .top-header.header-loggedin ul li a{font-size: 18px;}
+    .top-header.header-loggedin .menu-wrapper .menu-items{margin-bottom: 15px;}
+    .top-header.header-loggedin .menu-wrapper .menu-items li:first-child{display: block;}
+    .top-header.header-loggedin .menu-wrapper .menu-items li:first-child a{font-size: 30px;line-height: 1;}
+    .product-filter.category-landing.mt-top-0{margin-top: 30px;padding-bottom: 20px;}
+    .category_menu_mobile .active_categoryname_mobile{position: absolute;right: 46px;}
+    .home-section-leftcontent{padding: 0 0 30px;margin-top: 20px;}
+    .home-first-section .head{padding: 0;}
+    .home-first-section {padding: 0px 0 30px;}
+    .hss-left-content p{font-size: 18px;}
+    .hss-left-content {
+        max-width: 450px;
+        padding: 20px 20px 20px 20px;
+    }
+    .home-second-section{margin: 20px 0;}
+    .hss-right-content,.lend-section .lend-box1{padding: 30px;}
+    .home-second-section .hss-right,.lend-section .lend-box1{margin:14px 0;border-radius: 0;}
+    .home-second-section .hss-right .hss-right-content h3{font-size: 20px;}
+    .home-second-section .hss-right .hss-right-content p{font-size: 18px;margin: 20px 0 0;}
+    .home-steps-number ul{display: block !important;}
+    .home-steps-number ul li{
+        padding: 0 20px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+    }
+    .home-steps-number ul li h4{flex: 0 0 80px;margin: 0;}
+    .home-steps-number ul li p{margin:0;}
+    .home-steps-number,.common-spacer-topbot{padding:30px 0;}
+    .track-section .container-width-extend,.lend-section .container-width-extend{padding-right: 0px;padding-left: 0px;}
+    .lend-section .home-steps-number ul li{margin-bottom: 0;}
+    .lend-section .home-steps-number{padding: 0 20px 40px;}
+    .lend-section .lend-box1 .lend-box1-arrow{left: 20px;top: 110%;}
+    .lend-section .lend-box1 .lend-box1-arrow img{transform: rotate(-107deg);max-width: 110px;}
+    .lend-section .img-box{margin-top: 50px;}
+    .features-section .box{text-align: left;padding: 0px 10px 10px 10px;box-shadow: none;}
+    .features-section h4{padding-left: 10px;}
+    .price-section .mobile-reverse-row{flex-direction: column-reverse;}
+    .price-section .price-head{margin: 20px 10px;}
+    .price-section .price-wrapper .row .pr-col1:after{right: 0;top: auto;bottom: -16px;height: 2px;width: 90%;margin: 0 auto;
+    left: 0;}
+    .price-wrapper .pr-col2{margin-left: 0;}
+    .price-wrapper .pr-col-common{margin-right: 0;}
+    .price-box{padding: 30px 20px;min-height: auto;}
+    .price-section .price-wrapper .price.spacer-1{margin: 20px 0;}
+    .track-paddingtop{padding-top: 0;}
+    .track-section .b1_block .track-paddingtop,.track-section .b2_block{position: relative;}
+    .track-section .b1_block  .arrow-pointer,.track-section .b2_block .arrow-pointer{
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: -70px;
+        margin: 0;
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .track-section .b2_block .arrow-pointer{
+        bottom: auto;
+        top: -20px;
+        text-align: right;
+        width: 100%;
+    }
+    .track-section {padding-bottom: 20px;}
+.fundus-upgradation-popup .modal-content .btns .col-sm-5,.fundus-upgradation-popup .modal-content .btns .col-sm-6,#registeration-popup .modal-content .btns .col-sm-5,#registeration-popup .modal-content .btns .col-sm-6,#comlplete-project-upgrade .modal-content .btns .col-sm-6{padding-right: 15px;}
+.fundus-upgradation-popup .modal-content .btns .col-sm-7,.fundus-upgradation-popup .modal-content .btns .col-sm-6,#registeration-popup .modal-content .btns .col-sm-7,#registeration-popup .modal-content .btns .col-sm-6,.btnright .btns .col-sm-6{padding-left: 15px;}
+    .fundus-upgradation-popup .modal-content .btns .row,#registeration-popup .modal-content .btns .row,.btnright .btns .row{margin-right: -15px;margin-left: -15px;}
+    #payment-popup #payment-type,#payment-popup #payment-type .method,.btnright .btns{max-width: auto;margin: 0 auto;}
+    .new-design-space{max-width: auto;}
+    .cat-home .cat-products .pr-listing a img{height: 95px;max-width: 130px;object-fit: cover;}
+    .leihen-images.custom-img-slider a.open-product-detail-popup img{max-width: 350px;max-height: 280px;}
+    .top-header.header-loggedin .menu-wrapper .menu-items li:first-child a.store-icon{
+        background: url(../images/store-icon-mobile.png) center right no-repeat;
+        width: 21px;
+        height: 21px;
+        padding: 22px 10px;
+    }
+    .top-header.header-loggedin .menu-wrapper .menu-items li:first-child a.store-icon:hover,.top-header.header-loggedin .menu-wrapper .menu-items li:first-child a.store-icon.active-icon{
+        background: url(../images/store-active-icon.png) center right no-repeat;
+    }
+    .favourite-funds-children-header .favourite-funds-children-header-left{position: relative;}
+    .favourite-funds-children-header .checkbox.info-message{
+        position: absolute;
+        top: -13px;
+        right: 0;
+    }
+    .favourite-funds-children-header .checkbox.info-message .check_container{
+        right: 0;
+    }
+    .home-first-section .rowheight{height: auto;}
+    .error-page-section{height: 80vh;padding: 70px 0;}
+    .error-page-section h1{font-size: 130px;line-height: 130px;}
+    .error-page-section h3{font-size: 26px;margin-bottom: 50px;}
+    .error-page-content.border-left{border: none !important;text-align: center; padding: 0;}
+    .error-page-section p{font-size: 18px;line-height: 26px;margin-bottom: 20px;}
+    .error-page-section h3.line-height-increase {line-height: 30px;}
+
+    .favourite-funds.prop-store .funds-wrapper .funds-name .name h6{font-size: 14px;margin-bottom: 0;}
+    .favourite-funds.prop-store .funds-wrapper .funds-name .name .user-info{font-size: 12px;}
+    .favourite-funds.prop-store .funds-wrapper .funds-detail-ac .card .card-link::before{top: 4px;}
+    .favourite-funds.prop-store .funds-wrapper .checkbox.info-message .check_container{top: 7px;}
+    .prop-store .funds-wrapper .fundus-enquiry-item .checkbox{padding-right: 30px;}
+    .prop-store .funds-wrapper .fundus-enquiry .input-price[type=text]{width: 90px;}
+    .prop-store .funds-wrapper .product-dls-wrap .select-count .count .circle{width: 8px;height: 8px;}
+    .prop-store .add-fundus-wrap .save-fundus-wrap .check_container{margin-left: 15px;font-size: 12px;line-height: 29px;}
+    .prop-store .fundus-enquiry .save-fundus-wrap .btns{padding: 10px 0 0 0px;}
+    .favourite-funds.prop-store .fundus-enquiry .add-fundus-enquiry{width: 100%;float: none;margin-bottom: 10px;}
+    .favourite-funds.prop-store .add-fundus-btn-wrap{padding-right: 0;}
+    .prop-store .funds-wrapper .product-dls-wrap .product-name h5{margin-bottom: 14px}
+    .prop-store .funds-wrapper .product-dls-wrap .detail-col .value{color: inherit;}
+    #register-success .btnright .btns{max-width: inherit;}
+   .prop-store .add-produc-wrap .product_unit_price.price .error{text-align: right;line-height: 14px; font-size: 12px;}
+   .prop-store .error{line-height: 14px; font-size: 12px;}
+   .short-description{height: auto;}
+   .funds-details .funds-info .desciption .short-description .content{margin-bottom: 0px;}
+   #favourite-theme.edit-products-wrap .name-count .edit-funds-name{padding: 0 5px;}
+   .item-add-edit .item-details .price .price-wrapper-change .row{flex-wrap: nowrap;}
+   .price-wrapper.price-wrapper-change .article-price .col-sm-1{flex: 0 0 20%;}
+   .item-add-edit .item-details .price .row{margin: 0 -5px 20px;}
+   .price-wrapper.price-wrapper-change .article-price .error{position: absolute;bottom: -18px;font-size: 12px;}
+   .fundus-inquiries-row{margin-top: 0px;}
+   .item-add-edit .item-details .price .price-wrapper.price-wrapper-change .add-price-plus,.item-add-edit .item-details .price .price-wrapper.price-wrapper-change .add-price.remove{right:0;left: auto;}
+   .funds-wrapper .fundus-enquiry .fundus-inquiries-row .input-price[type=text] {margin-top: 0px;}
+   .filter-form .hint-box-global,#project-detail .hint-box-global{top: 100px;}
+   .product-filter .categories-wrap .hint-box-global{
+        left: auto;
+        top: 120%;
+        right: 0;
+        border-bottom-left-radius: 14px;
+        border-top-right-radius: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 4px 12px 10px;
+        text-align: right;
+   }
+   .product-filter .categories-wrap .hint-box-global .option{margin-left: 0px;margin-right: 1px;}
+   .product-filter .categories-wrap .hint-box-global .option label{
+        padding-left: 0px;
+        padding-right: 26px;
+   }
+   .product-filter .categories-wrap .hint-box-global .checkmarks::before, .product-filter .categories-wrap .hint-box-global .checkmarks::after{
+        left: auto;
+        right: 0;
+   }
+    .favourite_main_section .edits-wrapper .hint_bookmarks .hint-box-global{
+        left: 50px;
+        top: 84px;
+        border-bottom-left-radius: 14px;
+        border-top-left-radius: 0;
+    }
+    .favourite-funds.prop-store .funds-list .funds-wrapper .hint-box-global.action-hintbox{
+        right: 20px;
+        bottom: 66px;
+        border-bottom-left-radius: 14px;
+        border-bottom-right-radius: 0;
+    }
+    .favourite-funds.prop-store .funds-list .funds-wrapper .add-fundus-btn-wrap .hint-box-global{
+        right: 10%;
+        bottom: 34px;
+    }
+    .fundus-enquiry .save-fundus-wrap .hint-box-global{
+        bottom: 100px;
+        left: 0px;
+    }
+    .my-data-section .hint-box-global{bottom: 60px;right: 30px;}
+    .edit-products-wrap .products-container .item-box .product-img .hint-box-global{left: 0;width: 200px;}
+    .funds-list .funds-wrapper .funds-name .hint-box-global{left: 60px;bottom: -60px;}
+    .product-detail-section .category-counter .hint-box-global{right: 10px;top: 76px;}
+    .hss-left-content img{max-width: 220px;}
+    .data-wrap .btns .global-btn{width: 100%;text-align: center;margin-bottom: 8px}
+    .message-fundus-btn{display: block;}
+    .message-fundus-btn .btngroup2{text-align: right;}
+    .message-fundus-btn .checkbox-option-style{margin-bottom: 20px;}
+    .filter-form .btn i{margin-top: 1px;}
+}
+@media(min-width: 576.01px) and (max-width: 767px){
+    .funds-wrapper .product-dls-wrap .product-count{
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    .product-filter .funds-details .contact-info .dls.artikel{
+        margin-top: 20px;
+    }
+    .article-bulk-upload h4{
+        font-size: 20px;
+    }
+    .article-bulk-upload .bulk-upload-inner{
+        padding: 25px;
+    }
+    .article-bulk-upload{
+        min-height: 500px;
+    }
+    .shooting-period-date .fundus-dates-wrap .period-date{font-size: 12px;min-width: 200px;}
+    .shooting-period-date .fundus-dates-desc .period-date-txt{min-width: 42%;}
+}
+@media(max-width: 576px){
+    .products-container .item-box{
+        width: 100%!important;
+    }
+    .data-wrap .btns button,
+    #delete-account .global-btn,
+    #change-password .global-btn,
+    .data-wrap .btns .global-btn{
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #registeration-popup .close{
+        right: 12px;
+        top: 3px;
+    }
+    #login-modal .close{
+        right: 14px;
+        top: 10px;
+    }
+    #login-modal .close img, #registeration-popup .close img{
+        max-width: 18px;
+    }
+    .daterangepicker .calendar-table th, .daterangepicker .calendar-table td{line-height: 26px;}
+    .filter-form .input-box .search-btn{right: 132px;}
+    .favourite-funds.prop-store .funds-wrapper .product-wrap > .row > .col-sm-2, .favourite-funds.prop-store .funds-wrapper .product-wrap > .row > .col-sm-10{
+        padding: 0 0px;
+    }
+    .fundus-enquiry .add-produc-wrap .form-group .form-control.artikel{margin-top: 7px;}
+}
+@media(max-width: 360px){
+    .form-progress li{
+        font-size: 10px;
+    }
+    .register-login .btns a{
+        width: 130px;
+        margin: 5px 2px;
+        font-size: 14px;
+    }
+    .register-login h5{
+        font-size: 15px;
+    }
+    .cat-products h5{
+        font-size: 18px;
+    }
+    .filter-form .category-dropdown ul li a{
+        font-size: 11px;
+    }
+    .favourite-funds .fundus-enquiry .fundus-dates-wrap{
+        flex:0 0 140px;
+        max-width: 140px;
+    }
+    .infinite-fundus-upgrade-complete .row .col-sm-6.color-green,.infinite-fundus-upgrade-complete .row .col-sm-6.color-red{
+        font-size: 12px;
+    }
+}
